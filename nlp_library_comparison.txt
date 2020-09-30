@@ -1,0 +1,51 @@
+Number of files parsed = 997
+Total size of text corpus = 2649198 bytes
+Sample sentences parsed:
+ ['Xref: cantaloupe.srv.cs.cmu.edu alt.atheism:53028 talk.religion.misc:83510 talk.origins:40853\nPath: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!wupost!crcnis1.unl.edu!moe.ksu.ksu.edu!hobbes.physics.uiowa.edu!news.iastate.edu!iscsvax.uni.edu!sunfish!charlie.usd.edu!RFOX\nNewsgroups: alt.atheism,talk.religion.misc,talk.origins\nSubject: Re: Albert Sabin\nMessage-ID: <C5p660.36t@sunfish.usd.edu>\nFrom: rfox@charlie.usd.edu (Rich Fox, Univ of South Dakota)\nDate: Sun, 18 Apr 1993 20:56:23 GMT\nReply-To: rfox@charlie.usd.edu\nSender: news@sunfish.usd.edu\nReferences: <1993Mar29.231830.2055@rambo.atlanta.dg.com>  \n <1993Apr7.073926.9874@engage.pko.dec.com> \n <1993Apr10.213547.17644@rambo.atlanta.dg.com> \n <1993Apr11.162936.18734@zeus.franklin.edu>,<1993Apr15.225657.17804@rambo.atlanta.dg.com>\nOrganization: The University of South Dakota Computer Science Dept.', "Nntp-Posting-Host: charlie\nLines: 71\n\nIn article <1993Apr15.225657.17804@rambo.atlanta.dg.com>, wpr@atlanta.dg.com (Bill Rawlins) writes:\n>|> >|> \n>|> However, one highly biased account (as well as possibly internally \n>|> inconsistent) written over 2 mellenia ago, in a dead language, by fanatic\n>|> devotees of the creature in question which is not supported by other more \n>|> objective sources and isnt  even accepted by those who's messiah this creature \n>|> was supposed to be, doesn't convince me in the slightest, especially when many\n>|> of the current day devotees appear brainwashed into believing this pile of \n>|> guano...\n>\n>       Since you have referred to the Messiah, I assume you are referring\n>        to the New Testament.", "Please detail your complaints or e-mail if\n>        you don't want to post.", 'First-century Greek is well-known and\n>        well-understood.', 'Have you considered Josephus, the Jewish Historian,\n>        who also wrote of Jesus?']
+NLTK sentence tokenizer runs in = 1.811 seconds
+
+Sample words parsed:
+ ['Xref', ':', 'cantaloupe.srv.cs.cmu.edu', 'alt.atheism:53028', 'talk.religion.misc:83510', 'talk.origins:40853', 'Path', ':', 'cantaloupe.srv.cs.cmu.edu', '!']
+NLTK words tokenizer runs in = 5.685 seconds
+
+Sample stem words parsed:
+ [',', 'then', 'you', 'can', 'be', 'stupid', 'and', 'unemploy', 'and', 'it']
+NLTK stemming runs in = 8.624 seconds
+
+Number of words removed as stop words = 133085
+NLTK stop words removed in = 0.044 seconds
+
+Sample pos tagged tokens:
+ [('fact', 'NN'), (',', ','), ('oto', 'NN'), ('may', 'MD'), ('well', 'RB'), ('spin', 'VB'), ('>', 'NNP'), ('amorc', 'VB'), ('?', '.'), ('?', '.')]
+NLTK pos tagging runs in = 19.558 seconds
+
+Current memory usage with NLTK is 119.600601 MB; Peak was 141.87319 MB
+
+Sample tokens:
+ ['-', 'news.harvard.edu!noc.near.net!howland.reston.ans.net!wupost!crcnis1.unl.edu!moe.ksu.ksu.edu!hobbes.physics.uiowa.edu!news.iastate.edu!iscsvax.uni.edu!sunfish!charlie.usd.edu!RFOX', '\n', 'Newsgroups', ':', 'alt.atheism', ',', 'talk.religion.misc', ',', 'talk.origins']
+Spacy tokenization runs in = 1.897 seconds
+
+Sample pos tags:
+ ['PUNCT', 'PROPN', 'SPACE', 'PROPN', 'PUNCT', 'PROPN', 'PUNCT', 'PROPN', 'PUNCT', 'NOUN']
+Spacy tokenization runs in = 0.679 seconds
+
+Sample lemma:
+ ['-', 'news.harvard.edu!noc.near.net!howland.reston.ans.net!wupost!crcnis1.unl.edu!moe.ksu.ksu.edu!hobbes.physics.uiowa.edu!news.iastate.edu!iscsvax.uni.edu!sunfish!charlie.usd.edu!RFOX', '\n', 'Newsgroups', ':', 'alt.atheism', ',', 'talk.religion.misc', ',', 'talk.origin']
+Spacy lemmatization runs in = 1.783 seconds
+
+Current memory usage with Spacy is 435.808276 MB; Peak was 10155.766651 MB
+
+Sample tokens:
+ [':', 'alt.atheism,talk.religion.misc,talk.origins', 'Subject', ':', 'Re', ':', 'Albert', 'Sabin', 'Message', '-']
+Stanza tokenization runs in = 0.123 seconds
+
+Sample lemma:
+ [')', 'write', ':', '>|>', '>|>', '>|>', 'however', ',', 'one', 'highly', 'biased', 'account', '(', 'as', 'well', 'as', 'possibly', 'internally', '>|>', 'inconsistent']
+Stanza lemmatization runs in = 0.128 seconds
+
+Sample pos:
+ ['-RRB-', 'VBZ', ':', 'NFP', 'NN', '.', 'RB', ',', 'CD', 'RB', 'JJ', 'NN', '-LRB-', 'RB', 'RB', 'IN', 'RB', 'RB', ',', 'JJ']
+Stanza POS tagging runs in = 0.112 seconds
+
+Current memory usage with Stanza is 580.708099 MB; Peak was 1353.338528 MB
+
