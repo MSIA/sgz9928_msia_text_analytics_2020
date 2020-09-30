@@ -4,7 +4,7 @@
 
 **NetID:** sgz9928
 
-GitHub link - https://github.com/MSIA/sgz9928_msia_text_analytics_2020.git
+GitHub link - https://github.com/MSIA/sgz9928_msia_text_analytics_2020.git <br>
 Branch - homework1
 
 ## Problem 1
@@ -15,7 +15,7 @@ The following python NLP libraries were compared:
 - stanza
 
 The text corpus chosen to compare the libraries:
-- 20_newsgroups - talk.religion.misc
+- 20_newsgroups/talk.religion.misc
 - 997 files were read
 - total corpus size = 2.65 MB
 
