@@ -4,7 +4,7 @@
 
 **NetID:** sgz9928
 
-GitHub link - https://github.com/MSIA/sgz9928_msia_text_analytics_2020.git
+GitHub link - https://github.com/MSIA/sgz9928_msia_text_analytics_2020.git<br>
 Branch - homework2
 
 ## Problem 1
@@ -23,8 +23,8 @@ The data was preprocessed as follows,
 - tokenized
 - stop words removed
 
-The relevant script for this step - <br>
-Some example processed files can be found - 
+The relevant script for this step - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework2/problem1.py) <br>
+Some example processed files can be found - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/tree/homework2/processed_files)
 
 The following parameters were experimented with,
 - CBOW/skip-gram
@@ -56,8 +56,9 @@ Top 10 most similar words to "safety": <br>
 Top 10 most similar words to "violence": <br>
  ['machine', 'home', 'ownership', 'buyback', 'effect', 'nazi', 'main', 'times', 'crimes', 'sounds']
 
- Relevant python scripts for training and evaluating word2vec models - <br>
- Detailed results of each of the fitted model can be found - here
+ Relevant python scripts for training and evaluating word2vec models - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework2/problem2.py)<br>
+ Detailed results of each of the fitted model can be found - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/tree/homework2/trained_models)
+ 
 
 
 ## Problem 2
