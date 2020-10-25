@@ -1,0 +1,26 @@
+Input corpus sample:
+                                              review stars                                         clean_text
+0  As someone who has worked with many museums, I...     2  [as, someone, who, has, worked, with, many, mu...
+1  I am actually horrified this place is still in...     1  [i, am, actually, horrified, this, place, is, ...
+2  I love Deagan's. I do. I really do. The atmosp...     5  [i, love, deagan's, i, do, i, really, do, the,...
+3  Dismal, lukewarm, defrosted-tasting "TexMex" g...     1  [dismal, lukewarm, defrosted-tasting, texmex, ...
+4  Oh happy day, finally have a Canes near my cas...     4  [oh, happy, day, finally, have, a, canes, near...
+
+Encoded Labels: [1 0 4 3 2]
+
+Distribution of labels in trianing data:
+[0 1 2 3 4] [0.140935 0.081155 0.111555 0.225605 0.44075 ]
+Distribution of labels in test data:
+[0 1 2 3 4] [0.14094 0.08115 0.11156 0.2256  0.44075]
+
+Dimensions of X_train with unigrams = (400000, 44474)
+Dimensions of y_train = (400000,)
+Dimensions of X_train with unigrams and bigrams = (400000, 100000)
+Dimensions of y_train = (400000,)
+
+Model performance comparison:
+      ngram model                                         parameters  accuracy  precision    recall        F1
+0       uni   svm  {'multi_class': 'ovr', 'class_weight': 'balanc...   0.64929   0.562065  0.573579  0.566755
+1       uni   svm  {'multi_class': 'crammer_singer', 'class_weigh...   0.64050   0.564958  0.583244  0.572410
+2       uni   svm  {'multi_class': 'ovr', 'class_weight': 'None',...   0.66045   0.575347  0.546057  0.550908
+3  uni + bi   svm  {'multi_class': 'crammer_singer', 'class_weigh...   0.65474   0.581460  0.596608  0.587884

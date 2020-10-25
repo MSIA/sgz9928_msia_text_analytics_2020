@@ -1,0 +1,26 @@
+Input corpus sample:
+                                              review stars                                         clean_text
+0  As someone who has worked with many museums, I...     2  [as, someone, who, has, worked, with, many, mu...
+1  I am actually horrified this place is still in...     1  [i, am, actually, horrified, this, place, is, ...
+2  I love Deagan's. I do. I really do. The atmosp...     5  [i, love, deagan's, i, do, i, really, do, the,...
+3  Dismal, lukewarm, defrosted-tasting "TexMex" g...     1  [dismal, lukewarm, defrosted-tasting, texmex, ...
+4  Oh happy day, finally have a Canes near my cas...     4  [oh, happy, day, finally, have, a, canes, near...
+
+Encoded Labels: [1 0 4 3 2]
+
+Distribution of labels in trianing data:
+[0 1 2 3 4] [0.140935 0.081155 0.111555 0.225605 0.44075 ]
+Distribution of labels in test data:
+[0 1 2 3 4] [0.14094 0.08115 0.11156 0.2256  0.44075]
+
+Dimensions of X_train with unigrams = (400000, 44474)
+Dimensions of y_train = (400000,)
+Dimensions of X_train with unigrams and bigrams = (400000, 100000)
+Dimensions of y_train = (400000,)
+
+Model performance comparison:
+      ngram                model                                         parameters  accuracy  precision    recall        F1
+0       uni  logistic_regression  {'multi_class': 'ovr', 'class_weight': 'balanc...   0.66766   0.586625  0.594742  0.589955
+1       uni  logistic_regression  {'multi_class': 'ovr', 'class_weight': 'balanc...   0.66706   0.585104  0.594165  0.588941
+2       uni  logistic_regression  {'multi_class': 'multinomial', 'class_weight':...   0.64742   0.583991  0.605696  0.592081
+3  uni + bi  logistic_regression  {'multi_class': 'ovr', 'class_weight': 'balanc...   0.69159   0.616493  0.621065  0.618226
