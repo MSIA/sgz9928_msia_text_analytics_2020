@@ -11,7 +11,7 @@ Branch - homework3
 
 Download and familiarize yourself with a large text classification corpus.
 
-Yelp review dataset was chosen as the text corpus.
+Yelp review dataset was chosen as the text corpus. First 500000 reviews were used due to computation limitations.
 
 The data was in the form of a json file with each review having the following elements,
 - review_id
@@ -37,7 +37,7 @@ Distribution of labels:<br>
 
 Average word length of documents = 106.974186
 
-The relevant script for this problem - [here]() <br>
+The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework3/scripts/dataset_stats.py) <br>
  
 
 
@@ -84,7 +84,7 @@ Model performance comparison:
 
 Based on the performance on the test data the last model with both unigrams and bigrams is selected as the best model.
 
-The relevant script for this problem - [here]() <br>
+The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework3/scripts/logistic_regression.py) <br>
 
 
 ## Problem 3
@@ -117,7 +117,7 @@ Model performance comparison:
 
 Though the accuracy of the uni+bigram model is marginally lower, it has the highest F1-score. Considering the unbalanced nature of the dataset, F1-score is more important and hence the last model (uni+bi) is selected as the best model
 
-The relevant script for this problem - [here]() <br>
+The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework3/scripts/svm.py) <br>
 
 
 ## Problem 4
@@ -138,7 +138,7 @@ review3 = "Allie was a great server. The service really contributed to the great
 
 Predicted label for new review 3 = 4Stars
 
-The relevant script for this problem - [here]() <br>
+The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework3/scripts/predict_svm.py) <br>
  
 
 
