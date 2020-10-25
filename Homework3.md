@@ -120,7 +120,7 @@ Though the accuracy of the uni+bigram model is marginally lower, it has the high
 The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework3/scripts/svm.py) <br>
 
 
-**Build a linear SVM text classifier**
+**Build a FastText text classifier**
 
 fasttext supervised model is fit on the training data
 
