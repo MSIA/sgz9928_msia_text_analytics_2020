@@ -9,7 +9,7 @@ Branch - homework3
 
 ## Problem 1
 
-Download and familiarize yourself with a large text classification corpus.
+**Download and familiarize yourself with a large text classification corpus**
 
 Yelp review dataset was chosen as the text corpus. First 500000 reviews were used due to computation limitations.
 
@@ -43,7 +43,7 @@ The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_ms
 
 ## Problem 2
 
-Build a logistic regression text classifier.
+**Build a logistic regression text classifier**
 
 Logistic Regression classifier was built using the scikit learn library
 
@@ -89,7 +89,7 @@ The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_ms
 
 ## Problem 3
 
-Build a linear SVM text classifier.
+**Build a linear SVM text classifier**
 
 Scikit-learn LinearSVC was used to build the SVM model.
 
@@ -120,9 +120,27 @@ Though the accuracy of the uni+bigram model is marginally lower, it has the high
 The relevant script for this problem - [here](https://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework3/scripts/svm.py) <br>
 
 
+**Build a linear SVM text classifier**
+
+fasttext supervised model is fit on the training data
+
+Training output:<br>
+Read 43M words<br>
+Number of words:  688391<br>
+Number of labels: 5<br>
+Progress: 100.0% words/sec/thread: 3315519 lr:  0.000000 avg.loss:  0.793826 ETA:   0h 0m 0s
+
+Model performance on test data:<br>
+N = 99999<br>
+Precision = 0.6877668776687766<br>
+Recall = 0.6877668776687766
+
+The relevant script for this problem - [here](hhttps://github.com/MSIA/sgz9928_msia_text_analytics_2020/blob/homework3/scripts/fast_text.py) <br>
+
+
 ## Problem 4
 
-Write a “predict” script for your best-performing SVM model (based on your hyperparameter tuning experiments)
+**Write a “predict” script for your best-performing SVM model (based on your hyperparameter tuning experiments)**
 
 review1 = "The food was Absolutely delicious and the service was great!! I enjoyed the ambiance on date night with bae. We sat in the lounge and the booths were cute and comfortable! The soft music was an extra added touch bc it wasn't too loud that you couldn't enjoy conversation but it was also very relaxing. They also have a TV in the lounge that they were more than happy to change to the basketball game. \nDrinks: Bae had a Tito's and Tonic and I had a mimosa. Definitely no complaints. They do have a few drink specials throughout the week. (FYI - They have a drink on the menu called Cardi B which I think is super cute).\nFood: Appetizer - Sesame Chicken - it was absolutely delicious. It also comes with honey mustard which was a great added touch. We both enjoyed them. \nI had two sushi rolls, with cream cheese, cucumbers, tempura shrimp and crab salad. Bae had chicken and boiled rice. He didn't have any complaints he too enjoyed his meal. Will definitely come back to visit as a go to sushi place this summer!"
 
