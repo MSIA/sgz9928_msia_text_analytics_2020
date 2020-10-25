@@ -22,7 +22,7 @@ The data was in the form of a json file with each review having the following el
 - text (actual free text review)
 - date
 
-Sample review from the corpus:
+Sample review from the corpus:<br>
 {"review_id":"xQY8N_XvtGbearJ5X4QryQ",<br>"user_id":"OwjRMXRC0KyPrIlcjaXeFQ",<br>"business_id":"-MhfebM0QIsKt87iDN-FNw",<br>
 "stars":2.0,<br>
 "useful":5,"funny":0,"cool":0,<br>
